@@ -35,7 +35,7 @@ paths:
         200:
           description: OK
       tags:
-      - livechat
+      - chat
       - moderators
 definitions:
   Empty:
