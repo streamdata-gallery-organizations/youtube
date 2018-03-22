@@ -52,7 +52,7 @@ paths:
         200:
           description: OK
       tags:
-      - superchatevents
+      - chat
 definitions:
   Empty:
     properties: []
