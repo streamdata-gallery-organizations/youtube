@@ -40,7 +40,7 @@ paths:
         200:
           description: OK
       tags:
-      - livechat
+      - chat
       - messages
 definitions:
   Empty:
