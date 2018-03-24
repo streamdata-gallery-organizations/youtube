@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: youtube.api.streamdata.gallery
+title: Streamdata Gallery YouTube
+url: youtube.streamdata.gallery
 tag: YouTube
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: youtube
 github_branch: master
 collections:
