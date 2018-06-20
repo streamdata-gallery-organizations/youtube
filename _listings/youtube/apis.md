@@ -7,10 +7,10 @@ description: YouTube allows billions of people to discover, watch and share orig
   and advertisers large and small.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: YouTube
-created: "2018-05-23"
-modified: "2018-05-23"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,18 +26,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobs-get-openapi.md
-- name: Youtube Parameters Jobs
-  x-api-slug: youtube
-  description: Parameters v1 jobs
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs
-  tags: V1, Jobs
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobs-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobs-parameters-openapi.md
 - name: Youtube Add Jobs
   x-api-slug: youtube
   description: Creates a job and returns it.
@@ -72,18 +60,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobid-get-openapi.md
-- name: Youtube Parameters Jobs Job
-  x-api-slug: youtube
-  description: Parameters v1 jobs job
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs/{jobId}
-  tags: V1, Jobs, Job
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobid-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobid-parameters-openapi.md
 - name: Youtube Get Jobs Job Reports
   x-api-slug: youtube
   description: |-
@@ -98,18 +74,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobidreports-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobidreports-get-openapi.md
-- name: Youtube Parameters Jobs Job Reports
-  x-api-slug: youtube
-  description: Parameters v1 jobs job reports
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs/{jobId}/reports
-  tags: V1, Jobs, Job, Reports
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobidreports-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobidreports-parameters-openapi.md
 - name: Youtube Get Jobs Job Reports Report
   x-api-slug: youtube
   description: Gets the metadata of a specific report.
@@ -122,18 +86,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobidreportsreportid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobidreportsreportid-get-openapi.md
-- name: Youtube Parameters Jobs Job Report
-  x-api-slug: youtube
-  description: Parameters v1 jobs job reports report
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs/{jobId}/reports/{reportId}
-  tags: V1, Jobs, Job, Reports, Report
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobidreportsreportid-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1jobsjobidreportsreportid-parameters-openapi.md
 - name: Youtube Get Media Resource Name
   x-api-slug: youtube
   description: |-
@@ -148,18 +100,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1mediaresourcename-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1mediaresourcename-get-openapi.md
-- name: Youtube Parameters Media Resource Name
-  x-api-slug: youtube
-  description: Parameters v1 media resourcename
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/media/{resourceName}
-  tags: V1, Media, Resourcename
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1mediaresourcename-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1mediaresourcename-parameters-openapi.md
 - name: Youtube Get Reporttypes
   x-api-slug: youtube
   description: Lists report types.
@@ -172,18 +112,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1reporttypes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1reporttypes-get-openapi.md
-- name: Youtube Parameters Reporttypes
-  x-api-slug: youtube
-  description: Parameters v1 reporttypes
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/reportTypes
-  tags: V1, Reporttypes
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1reporttypes-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/v1reporttypes-parameters-openapi.md
 - name: Youtube Get Activities
   x-api-slug: youtube
   description: Returns a list of channel activity events that match the request criteria.
@@ -199,18 +127,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/activities-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/activities-get-openapi.md
-- name: Youtube Parameters Activities
-  x-api-slug: youtube
-  description: Parameters activities
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//activities
-  tags: Activities
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/activities-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/activities-parameters-openapi.md
 - name: Youtube Add Activities
   x-api-slug: youtube
   description: |-
@@ -250,18 +166,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/captions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/captions-get-openapi.md
-- name: Youtube Parameters Captions
-  x-api-slug: youtube
-  description: Parameters captions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//captions
-  tags: Captions
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/captions-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/captions-parameters-openapi.md
 - name: Youtube Add Captions
   x-api-slug: youtube
   description: Uploads a caption track.
@@ -297,28 +201,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/captionsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/captionsid-get-openapi.md
-- name: Youtube Parameters Captions
-  x-api-slug: youtube
-  description: Parameters captions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//captions/{id}
-  tags: Captions
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/captionsid-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/captionsid-parameters-openapi.md
-- name: Youtube Parameters Channel Banners Insert
-  x-api-slug: youtube
-  description: Parameters channelbanners insert
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//channelBanners/insert
-  tags: Channelbanners, Insert
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/channelbannersinsert-parameters-openapi.md
 - name: Youtube Add Channel Banners Insert
   x-api-slug: youtube
   description: |-
@@ -358,18 +240,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/channelsections-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/channelsections-get-openapi.md
-- name: Youtube Parameters Channel Sections
-  x-api-slug: youtube
-  description: Parameters channelsections
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//channelSections
-  tags: Channelsections
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/channelsections-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/channelsections-parameters-openapi.md
 - name: Youtube Add Channel Sections
   x-api-slug: youtube
   description: Adds a channelSection for the authenticated user's channel.
@@ -403,18 +273,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/channels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/channels-get-openapi.md
-- name: Youtube Parameters Channels
-  x-api-slug: youtube
-  description: Parameters channels
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//channels
-  tags: Channels
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/channels-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/channels-parameters-openapi.md
 - name: Youtube Put Channels
   x-api-slug: youtube
   description: Updates a channel's metadata. Note that this method currently only
@@ -439,18 +297,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentthreads-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentthreads-get-openapi.md
-- name: Youtube Parameters Comment Threads
-  x-api-slug: youtube
-  description: Parameters commentthreads
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//commentThreads
-  tags: Commentthreads
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentthreads-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentthreads-parameters-openapi.md
 - name: Youtube Add Comment Threads
   x-api-slug: youtube
   description: Creates a new top-level comment. To add a reply to an existing comment,
@@ -496,18 +342,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/comments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/comments-get-openapi.md
-- name: Youtube Parameters Comments
-  x-api-slug: youtube
-  description: Parameters comments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//comments
-  tags: Comments
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/comments-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/comments-parameters-openapi.md
 - name: Youtube Add Comments
   x-api-slug: youtube
   description: 'Creates a reply to an existing comment. Note: To create a top-level
@@ -529,18 +363,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/comments-put-openapi.md
-- name: Youtube Parameters Comments Mark as SPAM
-  x-api-slug: youtube
-  description: Parameters comments markasspam
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//comments/markAsSpam
-  tags: Comments, Markasspam
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentsmarkasspam-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentsmarkasspam-parameters-openapi.md
 - name: Youtube Add Comments Mark as SPAM
   x-api-slug: youtube
   description: Expresses the caller's opinion that one or more comments should be
@@ -554,18 +376,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentsmarkasspam-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentsmarkasspam-post-openapi.md
-- name: Youtube Parameters Comments Set Moderation Status
-  x-api-slug: youtube
-  description: Parameters comments setmoderationstatus
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//comments/setModerationStatus
-  tags: Comments, Setmoderationstatus
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentssetmoderationstatus-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/commentssetmoderationstatus-parameters-openapi.md
 - name: Youtube Add Comments Set Moderation Status
   x-api-slug: youtube
   description: Sets the moderation status of one or more comments. The API request
@@ -591,18 +401,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/fanfundingevents-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/fanfundingevents-get-openapi.md
-- name: Youtube Parameters Fanfundingevents
-  x-api-slug: youtube
-  description: Parameters fanfundingevents
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//fanFundingEvents
-  tags: Fanfundingevents
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/fanfundingevents-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/fanfundingevents-parameters-openapi.md
 - name: Youtube Get Guecategories
   x-api-slug: youtube
   description: Returns a list of categories that can be associated with YouTube channels.
@@ -615,18 +413,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/guidecategories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/guidecategories-get-openapi.md
-- name: Youtube Parameters Guecategories
-  x-api-slug: youtube
-  description: Parameters guecategories
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//guideCategories
-  tags: Guecategories
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/guidecategories-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/guidecategories-parameters-openapi.md
 - name: Youtube Get Languages
   x-api-slug: youtube
   description: Returns a list of application languages that the YouTube website supports.
@@ -639,18 +425,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/i18nlanguages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/i18nlanguages-get-openapi.md
-- name: Youtube Parameters Languages
-  x-api-slug: youtube
-  description: Parameters i18nlanguages
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//i18nLanguages
-  tags: Languages
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/i18nlanguages-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/i18nlanguages-parameters-openapi.md
 - name: Youtube Get Regions
   x-api-slug: youtube
   description: Returns a list of content regions that the YouTube website supports.
@@ -663,18 +437,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/i18nregions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/i18nregions-get-openapi.md
-- name: Youtube Parameters Regions
-  x-api-slug: youtube
-  description: Parameters i18nregions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//i18nRegions
-  tags: Regions
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/i18nregions-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/i18nregions-parameters-openapi.md
 - name: Youtube Delete Live Broadcasts
   x-api-slug: youtube
   description: Delete livebroadcasts
@@ -699,18 +461,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcasts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcasts-get-openapi.md
-- name: Youtube Parameters Live Broadcasts
-  x-api-slug: youtube
-  description: Parameters livebroadcasts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveBroadcasts
-  tags: Livebroadcasts
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcasts-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcasts-parameters-openapi.md
 - name: Youtube Add Live Broadcasts
   x-api-slug: youtube
   description: Creates a broadcast.
@@ -732,18 +482,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcasts-put-openapi.md
-- name: Youtube Parameters Live Broadcasts Bind
-  x-api-slug: youtube
-  description: Parameters livebroadcasts bind
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveBroadcasts/bind
-  tags: Livebroadcasts, Bind
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcastsbind-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcastsbind-parameters-openapi.md
 - name: Youtube Add Live Broadcasts Bind
   x-api-slug: youtube
   description: Binds a YouTube broadcast to a stream or removes an existing binding
@@ -758,18 +496,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcastsbind-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcastsbind-post-openapi.md
-- name: Youtube Parameters Live Broadcasts Control
-  x-api-slug: youtube
-  description: Parameters livebroadcasts control
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveBroadcasts/control
-  tags: Livebroadcasts, Control
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcastscontrol-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcastscontrol-parameters-openapi.md
 - name: Youtube Add Live Broadcasts Control
   x-api-slug: youtube
   description: Controls the settings for a slate that can be displayed in the broadcast
@@ -783,18 +509,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcastscontrol-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcastscontrol-post-openapi.md
-- name: Youtube Parameters Live Broadcasts Transition
-  x-api-slug: youtube
-  description: Parameters livebroadcasts transition
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveBroadcasts/transition
-  tags: Livebroadcasts, Transition
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcaststransition-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livebroadcaststransition-parameters-openapi.md
 - name: Youtube Add Live Broadcasts Transition
   x-api-slug: youtube
   description: Changes the status of a YouTube live broadcast and initiates any processes
@@ -823,18 +537,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatbans-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatbans-delete-openapi.md
-- name: Youtube Parameters Live Chat Bans
-  x-api-slug: youtube
-  description: Parameters livechat bans
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveChat/bans
-  tags: Chat, Bans
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatbans-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatbans-parameters-openapi.md
 - name: Youtube Add Live Chat Bans
   x-api-slug: youtube
   description: Adds a new ban to the chat.
@@ -869,18 +571,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatmessages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatmessages-get-openapi.md
-- name: Youtube Parameters Live Chat Messages
-  x-api-slug: youtube
-  description: Parameters livechat messages
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveChat/messages
-  tags: Chat, Messages
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatmessages-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatmessages-parameters-openapi.md
 - name: Youtube Add Live Chat Messages
   x-api-slug: youtube
   description: Adds a message to a live chat.
@@ -915,18 +605,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatmoderators-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatmoderators-get-openapi.md
-- name: Youtube Parameters Live Chat Moderators
-  x-api-slug: youtube
-  description: Parameters livechat moderators
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveChat/moderators
-  tags: Chat, Moderators
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatmoderators-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livechatmoderators-parameters-openapi.md
 - name: Youtube Add Live Chat Moderators
   x-api-slug: youtube
   description: Adds a new moderator for the chat.
@@ -961,18 +639,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livestreams-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livestreams-get-openapi.md
-- name: Youtube Parameters Livestreams
-  x-api-slug: youtube
-  description: Parameters livestreams
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveStreams
-  tags: Livestreams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livestreams-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/livestreams-parameters-openapi.md
 - name: Youtube Add Livestreams
   x-api-slug: youtube
   description: Creates a video stream. The stream enables you to send your video to
@@ -1017,16 +683,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/playlistitems-get-openapi.md
-- name: Youtube Parameters Play List Items
-  x-api-slug: youtube
-  description: Parameters playlistitems
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//playlistItems
-  tags: Playlistitems
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/playlistitems-parameters-openapi.md
 - name: Youtube Add Play List Items
   x-api-slug: youtube
   description: Adds a resource to a playlist.
@@ -1074,18 +730,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/playlists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/playlists-get-openapi.md
-- name: Youtube Parameters Playlists
-  x-api-slug: youtube
-  description: Parameters playlists
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//playlists
-  tags: Playlists
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/playlists-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/playlists-parameters-openapi.md
 - name: Youtube Add Playlists
   x-api-slug: youtube
   description: Creates a playlist.
@@ -1122,18 +766,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/search-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/search-get-openapi.md
-- name: Youtube Parameters Search
-  x-api-slug: youtube
-  description: Parameters search
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//search
-  tags: Search
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/search-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/search-parameters-openapi.md
 - name: Youtube Get Sponsors
   x-api-slug: youtube
   description: Lists sponsors for a channel.
@@ -1146,18 +778,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/sponsors-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/sponsors-get-openapi.md
-- name: Youtube Parameters Sponsors
-  x-api-slug: youtube
-  description: Parameters sponsors
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//sponsors
-  tags: Sponsors
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/sponsors-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/sponsors-parameters-openapi.md
 - name: Youtube Delete Subscriptions
   x-api-slug: youtube
   description: Deletes a subscription.
@@ -1178,16 +798,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/subscriptions-get-openapi.md
-- name: Youtube Parameters Subscriptions
-  x-api-slug: youtube
-  description: Parameters subscriptions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//subscriptions
-  tags: Subscriptions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/subscriptions-parameters-openapi.md
 - name: Youtube Add Subscriptions
   x-api-slug: youtube
   description: Adds a subscription for the authenticated user's channel.
@@ -1210,28 +820,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/superchatevents-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/superchatevents-get-openapi.md
-- name: Youtube Parameters Super Chat Events
-  x-api-slug: youtube
-  description: Parameters superchatevents
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//superChatEvents
-  tags: Chat
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/superchatevents-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/superchatevents-parameters-openapi.md
-- name: Youtube Parameters Thumbnails Set
-  x-api-slug: youtube
-  description: Parameters thumbnails set
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//thumbnails/set
-  tags: Thumbnails, Set
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/thumbnailsset-parameters-openapi.md
 - name: Youtube Add Thumbnails Set
   x-api-slug: youtube
   description: Uploads a custom video thumbnail to YouTube and sets it for a video.
@@ -1253,16 +841,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videoabusereportreasons-get-openapi.md
-- name: Youtube Parameters Video Abuse Report Reasons
-  x-api-slug: youtube
-  description: Parameters veoabusereportreasons
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//videoAbuseReportReasons
-  tags: Veoabusereportreasons
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videoabusereportreasons-parameters-openapi.md
 - name: Youtube Get Veocategories
   x-api-slug: youtube
   description: Returns a list of categories that can be associated with YouTube videos.
@@ -1275,18 +853,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videocategories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videocategories-get-openapi.md
-- name: Youtube Parameters Veocategories
-  x-api-slug: youtube
-  description: Parameters veocategories
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//videoCategories
-  tags: Veocategories
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videocategories-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videocategories-parameters-openapi.md
 - name: Youtube Delete Videos
   x-api-slug: youtube
   description: Deletes a YouTube video.
@@ -1307,16 +873,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videos-get-openapi.md
-- name: Youtube Parameters Videos
-  x-api-slug: youtube
-  description: Parameters veos
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//videos
-  tags: Veos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videos-parameters-openapi.md
 - name: Youtube Add Videos
   x-api-slug: youtube
   description: Uploads a video to YouTube and optionally sets the video's metadata.
@@ -1348,26 +904,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videosgetrating-get-openapi.md
-- name: Youtube Parameters Videos Get Rating
-  x-api-slug: youtube
-  description: Parameters veos getrating
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//videos/getRating
-  tags: Veos, Getrating
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videosgetrating-parameters-openapi.md
-- name: Youtube Parameters Videos Rate
-  x-api-slug: youtube
-  description: Parameters veos rate
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//videos/rate
-  tags: Veos, Rate
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videosrate-parameters-openapi.md
 - name: Youtube Add Videos Rate
   x-api-slug: youtube
   description: Add a like or dislike rating to a video or remove a rating from a video.
@@ -1378,16 +914,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videosrate-post-openapi.md
-- name: Youtube Parameters Videos Report Abuse
-  x-api-slug: youtube
-  description: Parameters veos reportabuse
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//videos/reportAbuse
-  tags: Veos, Reportabuse
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videosreportabuse-parameters-openapi.md
 - name: Youtube Add Videos Report Abuse
   x-api-slug: youtube
   description: Report abuse for a video.
@@ -1398,18 +924,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/videosreportabuse-post-openapi.md
-- name: Youtube Parameters Watermarks Set
-  x-api-slug: youtube
-  description: Parameters watermarks set
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//watermarks/set
-  tags: Watermarks, Set
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/watermarksset-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/watermarksset-parameters-openapi.md
 - name: Youtube Add Watermarks Set
   x-api-slug: youtube
   description: Uploads a watermark image to YouTube and sets it for a channel.
@@ -1420,18 +934,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/watermarksset-post-openapi.md
-- name: Youtube Parameters Watermarks Unset
-  x-api-slug: youtube
-  description: Parameters watermarks unset
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//watermarks/unset
-  tags: Watermarks, Unset
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/watermarksunset-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/watermarksunset-parameters-openapi.md
 - name: Youtube Add Watermarks Unset
   x-api-slug: youtube
   description: Deletes a channel's watermark image.
@@ -1464,16 +966,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/groupitems-get-openapi.md
-- name: Youtube Parameters Groupitems
-  x-api-slug: youtube
-  description: Parameters groupitems
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//groupItems
-  tags: Groupitems
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/groupitems-parameters-openapi.md
 - name: Youtube Add Groupitems
   x-api-slug: youtube
   description: Creates a group item.
@@ -1510,18 +1002,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/groups-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/groups-get-openapi.md
-- name: Youtube Parameters Groups
-  x-api-slug: youtube
-  description: Parameters groups
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//groups
-  tags: Groups
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/groups-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/groups-parameters-openapi.md
 - name: Youtube Add Groups
   x-api-slug: youtube
   description: Creates a group.
@@ -1554,18 +1034,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/reports-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/reports-get-openapi.md
-- name: Youtube Parameters Reports
-  x-api-slug: youtube
-  description: Parameters reports
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//reports
-  tags: Reports
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/reports-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/reports-parameters-openapi.md
 - name: Youtube
   x-api-slug: youtube
   description: YouTube allows billions of people to discover, watch and share originally-created

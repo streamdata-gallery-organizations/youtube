@@ -49,17 +49,6 @@ paths:
       tags:
       - V1
       - Jobs
-    parameters:
-      summary: Parameters Jobs
-      description: Parameters v1 jobs
-      operationId: parametersV1Jobs
-      x-api-path-slug: v1jobs-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
     post:
       summary: Add Jobs
       description: Creates a job and returns it.
@@ -121,18 +110,6 @@ paths:
       - V1
       - Jobs
       - Job
-    parameters:
-      summary: Parameters Jobs Job
-      description: Parameters v1 jobs job
-      operationId: parametersV1JobsJob
-      x-api-path-slug: v1jobsjobid-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
   /v1/jobs/{jobId}/reports:
     get:
       summary: Get Jobs Job Reports
@@ -175,19 +152,6 @@ paths:
       - Jobs
       - Job
       - Reports
-    parameters:
-      summary: Parameters Jobs Job Reports
-      description: Parameters v1 jobs job reports
-      operationId: parametersV1JobsJobReports
-      x-api-path-slug: v1jobsjobidreports-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
-      - Reports
   /v1/jobs/{jobId}/reports/{reportId}:
     get:
       summary: Get Jobs Job Reports Report
@@ -214,20 +178,6 @@ paths:
       - Job
       - Reports
       - Report
-    parameters:
-      summary: Parameters Jobs Job Report
-      description: Parameters v1 jobs job reports report
-      operationId: parametersV1JobsJobReportsReport
-      x-api-path-slug: v1jobsjobidreportsreportid-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
-      - Reports
-      - Report
   /v1/media/{resourceName}:
     get:
       summary: Get Media Resource Name
@@ -240,18 +190,6 @@ paths:
       - in: path
         name: resourceName
         description: Name of the media that is being downloaded
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Media
-      - Resourcename
-    parameters:
-      summary: Parameters Media Resource Name
-      description: Parameters v1 media resourcename
-      operationId: parametersV1MediaResourcename
-      x-api-path-slug: v1mediaresourcename-parameters
       responses:
         200:
           description: OK
@@ -281,17 +219,6 @@ paths:
       - in: query
         name: pageToken
         description: A token identifying a page of results the server should return
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Reporttypes
-    parameters:
-      summary: Parameters Reporttypes
-      description: Parameters v1 reporttypes
-      operationId: parametersV1Reporttypes
-      x-api-path-slug: v1reporttypes-parameters
       responses:
         200:
           description: OK
@@ -345,16 +272,6 @@ paths:
         name: regionCode
         description: The regionCode parameter instructs the API to return results
           for the specified country
-      responses:
-        200:
-          description: OK
-      tags:
-      - Activities
-    parameters:
-      summary: Parameters Activities
-      description: Parameters activities
-      operationId: parametersActivities
-      x-api-path-slug: activities-parameters
       responses:
         200:
           description: OK
@@ -433,16 +350,6 @@ paths:
         name: videoId
         description: The videoId parameter specifies the YouTube video ID of the video
           for which the API should return caption tracks
-      responses:
-        200:
-          description: OK
-      tags:
-      - Captions
-    parameters:
-      summary: Parameters Captions
-      description: Parameters captions
-      operationId: parametersCaptions
-      x-api-path-slug: captions-parameters
       responses:
         200:
           description: OK
@@ -545,28 +452,7 @@ paths:
           description: OK
       tags:
       - Captions
-    parameters:
-      summary: Parameters Captions
-      description: Parameters captions
-      operationId: parametersCaptions
-      x-api-path-slug: captionsid-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Captions
   /channelBanners/insert:
-    parameters:
-      summary: Parameters Channel Banners Insert
-      description: Parameters channelbanners insert
-      operationId: parametersChannelbannersInsert
-      x-api-path-slug: channelbannersinsert-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelbanners
-      - Insert
     post:
       summary: Add Channel Banners Insert
       description: |-
@@ -644,16 +530,6 @@ paths:
         name: part
         description: The part parameter specifies a comma-separated list of one or
           more channelSection resource properties that the API response will include
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelsections
-    parameters:
-      summary: Parameters Channel Sections
-      description: Parameters channelsections
-      operationId: parametersChannelsections
-      x-api-path-slug: channelsections-parameters
       responses:
         200:
           description: OK
@@ -762,16 +638,6 @@ paths:
           description: OK
       tags:
       - Channels
-    parameters:
-      summary: Parameters Channels
-      description: Parameters channels
-      operationId: parametersChannels
-      x-api-path-slug: channels-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channels
     put:
       summary: Put Channels
       description: Updates a channel's metadata. Note that this method currently only
@@ -848,16 +714,6 @@ paths:
         name: videoId
         description: The videoId parameter instructs the API to return comment threads
           associated with the specified video ID
-      responses:
-        200:
-          description: OK
-      tags:
-      - Commentthreads
-    parameters:
-      summary: Parameters Comment Threads
-      description: Parameters commentthreads
-      operationId: parametersCommentthreads
-      x-api-path-slug: commentthreads-parameters
       responses:
         200:
           description: OK
@@ -953,16 +809,6 @@ paths:
           description: OK
       tags:
       - Comments
-    parameters:
-      summary: Parameters Comments
-      description: Parameters comments
-      operationId: parametersComments
-      x-api-path-slug: comments-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Comments
     post:
       summary: Add Comments
       description: 'Creates a reply to an existing comment. Note: To create a top-level
@@ -1003,17 +849,6 @@ paths:
       tags:
       - Comments
   /comments/markAsSpam:
-    parameters:
-      summary: Parameters Comments Mark as SPAM
-      description: Parameters comments markasspam
-      operationId: parametersCommentsMarkasspam
-      x-api-path-slug: commentsmarkasspam-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Comments
-      - Markasspam
     post:
       summary: Add Comments Mark as SPAM
       description: Expresses the caller's opinion that one or more comments should
@@ -1032,17 +867,6 @@ paths:
       - Comments
       - Markasspam
   /comments/setModerationStatus:
-    parameters:
-      summary: Parameters Comments Set Moderation Status
-      description: Parameters comments setmoderationstatus
-      operationId: parametersCommentsSetmoderationstatus
-      x-api-path-slug: commentssetmoderationstatus-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Comments
-      - Setmoderationstatus
     post:
       summary: Add Comments Set Moderation Status
       description: Sets the moderation status of one or more comments. The API request
@@ -1096,16 +920,6 @@ paths:
           description: OK
       tags:
       - Fanfundingevents
-    parameters:
-      summary: Parameters Fanfundingevents
-      description: Parameters fanfundingevents
-      operationId: parametersFanfundingevents
-      x-api-path-slug: fanfundingevents-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Fanfundingevents
   /guideCategories:
     get:
       summary: Get Guecategories
@@ -1135,16 +949,6 @@ paths:
           description: OK
       tags:
       - Guecategories
-    parameters:
-      summary: Parameters Guecategories
-      description: Parameters guecategories
-      operationId: parametersGuecategories
-      x-api-path-slug: guidecategories-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Guecategories
   /i18nLanguages:
     get:
       summary: Get Languages
@@ -1166,16 +970,6 @@ paths:
           description: OK
       tags:
       - Languages
-    parameters:
-      summary: Parameters Languages
-      description: Parameters i18nlanguages
-      operationId: parametersI18nlanguages
-      x-api-path-slug: i18nlanguages-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Languages
   /i18nRegions:
     get:
       summary: Get Regions
@@ -1191,16 +985,6 @@ paths:
         name: part
         description: The part parameter specifies the i18nRegion resource properties
           that the API response will include
-      responses:
-        200:
-          description: OK
-      tags:
-      - Regions
-    parameters:
-      summary: Parameters Regions
-      description: Parameters i18nregions
-      operationId: parametersI18nregions
-      x-api-path-slug: i18nregions-parameters
       responses:
         200:
           description: OK
@@ -1276,16 +1060,6 @@ paths:
           description: OK
       tags:
       - Livebroadcasts
-    parameters:
-      summary: Parameters Live Broadcasts
-      description: Parameters livebroadcasts
-      operationId: parametersLivebroadcasts
-      x-api-path-slug: livebroadcasts-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
     post:
       summary: Add Live Broadcasts
       description: Creates a broadcast.
@@ -1338,17 +1112,6 @@ paths:
       tags:
       - Livebroadcasts
   /liveBroadcasts/bind:
-    parameters:
-      summary: Parameters Live Broadcasts Bind
-      description: Parameters livebroadcasts bind
-      operationId: parametersLivebroadcastsBind
-      x-api-path-slug: livebroadcastsbind-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
-      - Bind
     post:
       summary: Add Live Broadcasts Bind
       description: Binds a YouTube broadcast to a stream or removes an existing binding
@@ -1383,17 +1146,6 @@ paths:
       - Livebroadcasts
       - Bind
   /liveBroadcasts/control:
-    parameters:
-      summary: Parameters Live Broadcasts Control
-      description: Parameters livebroadcasts control
-      operationId: parametersLivebroadcastsControl
-      x-api-path-slug: livebroadcastscontrol-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
-      - Control
     post:
       summary: Add Live Broadcasts Control
       description: Controls the settings for a slate that can be displayed in the
@@ -1435,17 +1187,6 @@ paths:
       - Livebroadcasts
       - Control
   /liveBroadcasts/transition:
-    parameters:
-      summary: Parameters Live Broadcasts Transition
-      description: Parameters livebroadcasts transition
-      operationId: parametersLivebroadcastsTransition
-      x-api-path-slug: livebroadcaststransition-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
-      - Transition
     post:
       summary: Add Live Broadcasts Transition
       description: Changes the status of a YouTube live broadcast and initiates any
@@ -1492,17 +1233,6 @@ paths:
       - in: query
         name: id
         description: The id parameter identifies the chat ban to remove
-      responses:
-        200:
-          description: OK
-      tags:
-      - Chat
-      - Bans
-    parameters:
-      summary: Parameters Live Chat Bans
-      description: Parameters livechat bans
-      operationId: parametersLivechatBans
-      x-api-path-slug: livechatbans-parameters
       responses:
         200:
           description: OK
@@ -1581,17 +1311,6 @@ paths:
       tags:
       - Chat
       - Messages
-    parameters:
-      summary: Parameters Live Chat Messages
-      description: Parameters livechat messages
-      operationId: parametersLivechatMessages
-      x-api-path-slug: livechatmessages-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Chat
-      - Messages
     post:
       summary: Add Live Chat Messages
       description: Adds a message to a live chat.
@@ -1649,17 +1368,6 @@ paths:
         name: part
         description: The part parameter specifies the liveChatModerator resource parts
           that the API response will include
-      responses:
-        200:
-          description: OK
-      tags:
-      - Chat
-      - Moderators
-    parameters:
-      summary: Parameters Live Chat Moderators
-      description: Parameters livechat moderators
-      operationId: parametersLivechatModerators
-      x-api-path-slug: livechatmoderators-parameters
       responses:
         200:
           description: OK
@@ -1741,16 +1449,6 @@ paths:
         name: part
         description: The part parameter specifies a comma-separated list of one or
           more liveStream resource properties that the API response will include
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livestreams
-    parameters:
-      summary: Parameters Livestreams
-      description: Parameters livestreams
-      operationId: parametersLivestreams
-      x-api-path-slug: livestreams-parameters
       responses:
         200:
           description: OK
@@ -1869,16 +1567,6 @@ paths:
           description: OK
       tags:
       - Playlistitems
-    parameters:
-      summary: Parameters Play List Items
-      description: Parameters playlistitems
-      operationId: parametersPlaylistitems
-      x-api-path-slug: playlistitems-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Playlistitems
     post:
       summary: Add Play List Items
       description: Adds a resource to a playlist.
@@ -1987,16 +1675,6 @@ paths:
         name: part
         description: The part parameter specifies a comma-separated list of one or
           more playlist resource properties that the API response will include
-      responses:
-        200:
-          description: OK
-      tags:
-      - Playlists
-    parameters:
-      summary: Parameters Playlists
-      description: Parameters playlists
-      operationId: parametersPlaylists
-      x-api-path-slug: playlists-parameters
       responses:
         200:
           description: OK

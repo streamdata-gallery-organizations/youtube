@@ -48,17 +48,6 @@ paths:
       tags:
       - V1
       - Jobs
-    parameters:
-      summary: Parameters Jobs
-      description: Parameters v1 jobs
-      operationId: parametersV1Jobs
-      x-api-path-slug: v1jobs-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
     post:
       summary: Add Jobs
       description: Creates a job and returns it.
@@ -113,18 +102,6 @@ paths:
         name: onBehalfOfContentOwner
         description: The content owners external ID on which behalf the user is acting
           on
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
-    parameters:
-      summary: Parameters Jobs Job
-      description: Parameters v1 jobs job
-      operationId: parametersV1JobsJob
-      x-api-path-slug: v1jobsjobid-parameters
       responses:
         200:
           description: OK

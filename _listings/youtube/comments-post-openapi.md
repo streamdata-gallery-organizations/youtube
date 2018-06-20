@@ -47,17 +47,6 @@ paths:
       tags:
       - V1
       - Jobs
-    parameters:
-      summary: Parameters Jobs
-      description: Parameters v1 jobs
-      operationId: parametersV1Jobs
-      x-api-path-slug: v1jobs-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
     post:
       summary: Add Jobs
       description: Creates a job and returns it.
@@ -119,18 +108,6 @@ paths:
       - V1
       - Jobs
       - Job
-    parameters:
-      summary: Parameters Jobs Job
-      description: Parameters v1 jobs job
-      operationId: parametersV1JobsJob
-      x-api-path-slug: v1jobsjobid-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
   /v1/jobs/{jobId}/reports:
     get:
       summary: Get Jobs Job Reports
@@ -173,19 +150,6 @@ paths:
       - Jobs
       - Job
       - Reports
-    parameters:
-      summary: Parameters Jobs Job Reports
-      description: Parameters v1 jobs job reports
-      operationId: parametersV1JobsJobReports
-      x-api-path-slug: v1jobsjobidreports-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
-      - Reports
   /v1/jobs/{jobId}/reports/{reportId}:
     get:
       summary: Get Jobs Job Reports Report
@@ -212,20 +176,6 @@ paths:
       - Job
       - Reports
       - Report
-    parameters:
-      summary: Parameters Jobs Job Report
-      description: Parameters v1 jobs job reports report
-      operationId: parametersV1JobsJobReportsReport
-      x-api-path-slug: v1jobsjobidreportsreportid-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
-      - Reports
-      - Report
   /v1/media/{resourceName}:
     get:
       summary: Get Media Resource Name
@@ -238,18 +188,6 @@ paths:
       - in: path
         name: resourceName
         description: Name of the media that is being downloaded
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Media
-      - Resourcename
-    parameters:
-      summary: Parameters Media Resource Name
-      description: Parameters v1 media resourcename
-      operationId: parametersV1MediaResourcename
-      x-api-path-slug: v1mediaresourcename-parameters
       responses:
         200:
           description: OK
@@ -279,17 +217,6 @@ paths:
       - in: query
         name: pageToken
         description: A token identifying a page of results the server should return
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Reporttypes
-    parameters:
-      summary: Parameters Reporttypes
-      description: Parameters v1 reporttypes
-      operationId: parametersV1Reporttypes
-      x-api-path-slug: v1reporttypes-parameters
       responses:
         200:
           description: OK
@@ -343,16 +270,6 @@ paths:
         name: regionCode
         description: The regionCode parameter instructs the API to return results
           for the specified country
-      responses:
-        200:
-          description: OK
-      tags:
-      - Activities
-    parameters:
-      summary: Parameters Activities
-      description: Parameters activities
-      operationId: parametersActivities
-      x-api-path-slug: activities-parameters
       responses:
         200:
           description: OK
@@ -431,16 +348,6 @@ paths:
         name: videoId
         description: The videoId parameter specifies the YouTube video ID of the video
           for which the API should return caption tracks
-      responses:
-        200:
-          description: OK
-      tags:
-      - Captions
-    parameters:
-      summary: Parameters Captions
-      description: Parameters captions
-      operationId: parametersCaptions
-      x-api-path-slug: captions-parameters
       responses:
         200:
           description: OK
@@ -543,28 +450,7 @@ paths:
           description: OK
       tags:
       - Captions
-    parameters:
-      summary: Parameters Captions
-      description: Parameters captions
-      operationId: parametersCaptions
-      x-api-path-slug: captionsid-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Captions
   /channelBanners/insert:
-    parameters:
-      summary: Parameters Channel Banners Insert
-      description: Parameters channelbanners insert
-      operationId: parametersChannelbannersInsert
-      x-api-path-slug: channelbannersinsert-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelbanners
-      - Insert
     post:
       summary: Add Channel Banners Insert
       description: |-
@@ -642,16 +528,6 @@ paths:
         name: part
         description: The part parameter specifies a comma-separated list of one or
           more channelSection resource properties that the API response will include
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelsections
-    parameters:
-      summary: Parameters Channel Sections
-      description: Parameters channelsections
-      operationId: parametersChannelsections
-      x-api-path-slug: channelsections-parameters
       responses:
         200:
           description: OK
@@ -760,16 +636,6 @@ paths:
           description: OK
       tags:
       - Channels
-    parameters:
-      summary: Parameters Channels
-      description: Parameters channels
-      operationId: parametersChannels
-      x-api-path-slug: channels-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channels
     put:
       summary: Put Channels
       description: Updates a channel's metadata. Note that this method currently only
@@ -846,16 +712,6 @@ paths:
         name: videoId
         description: The videoId parameter instructs the API to return comment threads
           associated with the specified video ID
-      responses:
-        200:
-          description: OK
-      tags:
-      - Commentthreads
-    parameters:
-      summary: Parameters Comment Threads
-      description: Parameters commentthreads
-      operationId: parametersCommentthreads
-      x-api-path-slug: commentthreads-parameters
       responses:
         200:
           description: OK
@@ -946,16 +802,6 @@ paths:
         name: textFormat
         description: This parameter indicates whether the API should return comments
           formatted as HTML or as plain text
-      responses:
-        200:
-          description: OK
-      tags:
-      - Comments
-    parameters:
-      summary: Parameters Comments
-      description: Parameters comments
-      operationId: parametersComments
-      x-api-path-slug: comments-parameters
       responses:
         200:
           description: OK

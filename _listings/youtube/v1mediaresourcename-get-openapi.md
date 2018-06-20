@@ -48,17 +48,6 @@ paths:
       tags:
       - V1
       - Jobs
-    parameters:
-      summary: Parameters Jobs
-      description: Parameters v1 jobs
-      operationId: parametersV1Jobs
-      x-api-path-slug: v1jobs-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
     post:
       summary: Add Jobs
       description: Creates a job and returns it.
@@ -120,18 +109,6 @@ paths:
       - V1
       - Jobs
       - Job
-    parameters:
-      summary: Parameters Jobs Job
-      description: Parameters v1 jobs job
-      operationId: parametersV1JobsJob
-      x-api-path-slug: v1jobsjobid-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
   /v1/jobs/{jobId}/reports:
     get:
       summary: Get Jobs Job Reports
@@ -174,19 +151,6 @@ paths:
       - Jobs
       - Job
       - Reports
-    parameters:
-      summary: Parameters Jobs Job Reports
-      description: Parameters v1 jobs job reports
-      operationId: parametersV1JobsJobReports
-      x-api-path-slug: v1jobsjobidreports-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
-      - Reports
   /v1/jobs/{jobId}/reports/{reportId}:
     get:
       summary: Get Jobs Job Reports Report
@@ -204,20 +168,6 @@ paths:
       - in: path
         name: reportId
         description: The ID of the report to retrieve
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
-      - Reports
-      - Report
-    parameters:
-      summary: Parameters Jobs Job Report
-      description: Parameters v1 jobs job reports report
-      operationId: parametersV1JobsJobReportsReport
-      x-api-path-slug: v1jobsjobidreportsreportid-parameters
       responses:
         200:
           description: OK

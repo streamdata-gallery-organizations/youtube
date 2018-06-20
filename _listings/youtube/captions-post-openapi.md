@@ -46,17 +46,6 @@ paths:
       tags:
       - V1
       - Jobs
-    parameters:
-      summary: Parameters Jobs
-      description: Parameters v1 jobs
-      operationId: parametersV1Jobs
-      x-api-path-slug: v1jobs-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
     post:
       summary: Add Jobs
       description: Creates a job and returns it.
@@ -118,18 +107,6 @@ paths:
       - V1
       - Jobs
       - Job
-    parameters:
-      summary: Parameters Jobs Job
-      description: Parameters v1 jobs job
-      operationId: parametersV1JobsJob
-      x-api-path-slug: v1jobsjobid-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
   /v1/jobs/{jobId}/reports:
     get:
       summary: Get Jobs Job Reports
@@ -172,19 +149,6 @@ paths:
       - Jobs
       - Job
       - Reports
-    parameters:
-      summary: Parameters Jobs Job Reports
-      description: Parameters v1 jobs job reports
-      operationId: parametersV1JobsJobReports
-      x-api-path-slug: v1jobsjobidreports-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
-      - Reports
   /v1/jobs/{jobId}/reports/{reportId}:
     get:
       summary: Get Jobs Job Reports Report
@@ -211,20 +175,6 @@ paths:
       - Job
       - Reports
       - Report
-    parameters:
-      summary: Parameters Jobs Job Report
-      description: Parameters v1 jobs job reports report
-      operationId: parametersV1JobsJobReportsReport
-      x-api-path-slug: v1jobsjobidreportsreportid-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Jobs
-      - Job
-      - Reports
-      - Report
   /v1/media/{resourceName}:
     get:
       summary: Get Media Resource Name
@@ -237,18 +187,6 @@ paths:
       - in: path
         name: resourceName
         description: Name of the media that is being downloaded
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Media
-      - Resourcename
-    parameters:
-      summary: Parameters Media Resource Name
-      description: Parameters v1 media resourcename
-      operationId: parametersV1MediaResourcename
-      x-api-path-slug: v1mediaresourcename-parameters
       responses:
         200:
           description: OK
@@ -278,17 +216,6 @@ paths:
       - in: query
         name: pageToken
         description: A token identifying a page of results the server should return
-      responses:
-        200:
-          description: OK
-      tags:
-      - V1
-      - Reporttypes
-    parameters:
-      summary: Parameters Reporttypes
-      description: Parameters v1 reporttypes
-      operationId: parametersV1Reporttypes
-      x-api-path-slug: v1reporttypes-parameters
       responses:
         200:
           description: OK
@@ -342,16 +269,6 @@ paths:
         name: regionCode
         description: The regionCode parameter instructs the API to return results
           for the specified country
-      responses:
-        200:
-          description: OK
-      tags:
-      - Activities
-    parameters:
-      summary: Parameters Activities
-      description: Parameters activities
-      operationId: parametersActivities
-      x-api-path-slug: activities-parameters
       responses:
         200:
           description: OK
@@ -430,16 +347,6 @@ paths:
         name: videoId
         description: The videoId parameter specifies the YouTube video ID of the video
           for which the API should return caption tracks
-      responses:
-        200:
-          description: OK
-      tags:
-      - Captions
-    parameters:
-      summary: Parameters Captions
-      description: Parameters captions
-      operationId: parametersCaptions
-      x-api-path-slug: captions-parameters
       responses:
         200:
           description: OK
