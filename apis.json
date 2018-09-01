@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - YouTube",
+	"description": "This is a repository of youtube APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/youtube.png",
+	"created": "2018-02-24",
+	"modified": "2018-09-01",
+	"url": "http://youtube.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "YouTube",
+			"x-api-slug": "youtube",
+			"description": "YouTube is an American video-sharing website headquartered in San Bruno, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg",
+			"humanURL": "https://www.youtube.com/",
+			"baseURL": "https://www.googleapis.com//youtube/v1",
+			"tags": "YouTube",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "YouTube",
+	"include": [
+		{
+			"name": "YouTube",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/youtube/master/_listings/youtube/apis.yaml"
+		}
+	]
+}
